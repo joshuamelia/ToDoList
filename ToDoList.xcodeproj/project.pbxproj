@@ -19,6 +19,7 @@
 		6B1DEF85184301580015F322 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1DEF6D184301580015F322 /* UIKit.framework */; };
 		6B1DEF8D184301580015F322 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B1DEF8B184301580015F322 /* InfoPlist.strings */; };
 		6B1DEF8F184301580015F322 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1DEF8E184301580015F322 /* ToDoListTests.m */; };
+		6B1DEF9918430F7C0015F322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1DEF9818430F7C0015F322 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		6B1DEF8A184301580015F322 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		6B1DEF8C184301580015F322 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B1DEF8E184301580015F322 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		6B1DEF9818430F7C0015F322 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				6B1DEF78184301580015F322 /* XYZAppDelegate.h */,
 				6B1DEF79184301580015F322 /* XYZAppDelegate.m */,
+				6B1DEF9818430F7C0015F322 /* Main.storyboard */,
 				6B1DEF7B184301580015F322 /* Images.xcassets */,
 				6B1DEF70184301580015F322 /* Supporting Files */,
 			);
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1DEF9918430F7C0015F322 /* Main.storyboard in Resources */,
 				6B1DEF74184301580015F322 /* InfoPlist.strings in Resources */,
 				6B1DEF7C184301580015F322 /* Images.xcassets in Resources */,
 			);
